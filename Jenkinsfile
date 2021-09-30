@@ -8,11 +8,6 @@ pipeline {
 
 	stages {
 
-		stage('Initialize Maven') {
-			steps {
-			}
-		}
-		
 		stage('Build maven project') {
 			steps {
 				echo "building maven project from github"
