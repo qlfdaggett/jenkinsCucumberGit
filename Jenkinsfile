@@ -2,6 +2,14 @@ pipeline {
 	agent any
 
 	stages {
+
+		stage('Initialize Maven') {
+			steps {
+				sh "export MAVEN_HOME=/usr/local/apache-maven"
+				sh "export PATH=$PATH:$MAVEN_HOME/bin"
+				sh "mvn --version"
+			}
+		}
 		
 		stage('Build maven project') {
 			steps {
