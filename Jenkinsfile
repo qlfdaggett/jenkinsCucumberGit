@@ -6,6 +6,9 @@ pipeline {
 		stage('Build maven project') {
 			steps {
 				echo "building maven project from github"
+				dir("jenkinsCucumber") {
+					sh "mvn test"
+				}
 			}
 		}
 
