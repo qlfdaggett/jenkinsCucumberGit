@@ -3,11 +3,13 @@ pipeline {
 
 	stages {
 
+		tools {
+			maven 'Maven 3.8.2'
+			jdk 'jdk8'
+		}
+
 		stage('Initialize Maven') {
 			steps {
-				sh "export MAVEN_HOME=/usr/local/apache-maven"
-				sh "export PATH=$PATH:$MAVEN_HOME/bin"
-				sh "mvn --version"
 			}
 		}
 		
