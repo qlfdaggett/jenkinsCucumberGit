@@ -29,7 +29,6 @@ pipeline {
 		stage('Run cucumber tests') {
 			steps {
 					sh "./UnitTest.sh"
-					sh "asdfasdf"
 				}
 		}
 
