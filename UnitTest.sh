@@ -1,5 +1,5 @@
 echo "running cucumber test suite"
-exit 1
+
 cd jenkinsCucumber
-dmvn test || exit 0
+dmvn test || exit 1
 cd ..
