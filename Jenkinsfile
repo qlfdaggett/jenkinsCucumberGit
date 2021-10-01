@@ -29,7 +29,7 @@ pipeline {
 		stage('Run cucumber tests') {
 			steps {
 				dir("jenkinsCucumber") {
-					sh "mvn test"
+					sh "./UnitTest.sh"
 				}
 			}
 		}
