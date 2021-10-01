@@ -28,10 +28,8 @@ pipeline {
 
 		stage('Run cucumber tests') {
 			steps {
-				dir("jenkinsCucumber") {
 					sh "./UnitTest.sh"
 				}
-			}
 		}
 
 		stage('Deploy to production') {
