@@ -22,7 +22,7 @@ pipeline {
 
 		stage('Deploy to development server') {
 			steps {
-				sh "./Deploy.sh"
+				sh "./DeployDev.sh"
 			}
 		}
 
