@@ -1,5 +1,5 @@
 echo "running cucumber test suite"
 
 cd jenkinsCucumber
-mvn test 
+asdfasdmvn test 
 cd ..
