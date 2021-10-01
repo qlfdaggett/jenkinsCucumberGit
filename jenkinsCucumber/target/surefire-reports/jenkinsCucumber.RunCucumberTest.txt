@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: jenkinsCucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.365 sec
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.362 sec <<< FAILURE!
+Title of your scenario(Title of your feature)  Time elapsed: 0.098 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at jenkinsCucumber.StepDefinitions.i_am_done_testing(StepDefinitions.java:19)
+	at ✽.I am done testing(classpath:jenkinsCucumber/tests.feature:6)
+

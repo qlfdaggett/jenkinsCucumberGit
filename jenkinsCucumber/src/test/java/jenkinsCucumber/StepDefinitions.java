@@ -6,6 +6,8 @@ import io.cucumber.java.en.When;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
+
 public class StepDefinitions {
 	
 	@Given("I am testing")
@@ -14,5 +16,6 @@ public class StepDefinitions {
 	
 	@Then("I am done testing")
 	public void i_am_done_testing() {
+		Assert.assertTrue(false);
 	}
 }
