@@ -1,6 +1,5 @@
 echo "running cucumber test suite"
 
 cd jenkinsCucumber
-echo "pass" || exit 1
-echo "fail"
+mvn test || exit 1
 cd ..
