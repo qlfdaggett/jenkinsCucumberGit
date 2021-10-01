@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="jenkinsCucumber.RunCucumberTest" time="0.098" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="jenkinsCucumber.RunCucumberTest" time="9.408" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17+35-LTS-2724"/>
@@ -59,25 +59,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Title of your feature" name="Title of your scenario" time="0.098">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at jenkinsCucumber.StepDefinitions.i_am_done_testing(StepDefinitions.java:19)
-	at ✽.I am done testing(classpath:jenkinsCucumber/tests.feature:6)
-</failure>
-    <system-out>
-Scenario: Title of your scenario &amp;#27;[90m# jenkinsCucumber/tests.feature:4&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am testing&amp;#27;[0m             &amp;#27;[90m# jenkinsCucumber.StepDefinitions.i_am_testing()&amp;#27;[0m
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI am done testing&amp;#27;[0m         &amp;#27;[90m# jenkinsCucumber.StepDefinitions.i_am_done_testing()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at jenkinsCucumber.StepDefinitions.i_am_done_testing(StepDefinitions.java:19)
-	at ✽.I am done testing(classpath:jenkinsCucumber/tests.feature:6)
-&amp;#27;[0m
-</system-out>
-  </testcase>
+  <testcase classname="Title of your feature" name="Title of your scenario" time="9.408"/>
 </testsuite>
