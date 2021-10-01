@@ -1,3 +1,3 @@
 echo "Checking out from github"
-git url: 'https://github.com/qlfdaggett/MavenTest.git'
+git branch: 'main', url: 'https://github.com/qlfdaggett/MavenTest.git'
 mvn package
