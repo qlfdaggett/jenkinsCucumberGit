@@ -10,7 +10,7 @@ pipeline {
 
 		stage('Initialize pipeline') {
 			steps {
-				sh. "chmod +wrx *.sh"
+				sh "chmod +wrx *.sh"
 			}
 		}
 
