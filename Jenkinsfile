@@ -22,8 +22,7 @@ pipeline {
 
 		stage('Deploy to development server') {
 			steps {
-				echo "deploying to dev server"
-				sh "wget --http-user=admin --http-password=1234 \"http://localhost:8081/manager/text/deploy?war=file:mavenTest.war&path=/app\""
+				sh "./Deploy.sh"
 			}
 		}
 
